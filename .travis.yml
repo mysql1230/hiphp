@@ -9,7 +9,7 @@ php:
   - 5.5
 
 # omitting "script:" will default to phpunit
-# use the $DB env variable to determine the phpunit.xml to use
-script: phpunit --configuration phpunit_$DB.xml --coverage-text
+# use the $DB env variable to determine the phpunit.xml to use --configuration phpunit_$DB.xml
+script: phpunit  --coverage-text
 
 # configure notifications (email, IRC, campfire etc)
